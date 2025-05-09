@@ -1,0 +1,7 @@
+{
+    "productsHeader": ".product_label",
+    "cartLink": ".shopping_cart_link",
+    "cartTitle": ".subheader",
+    "menuButton": "#react-burger-menu-btn",
+    "menuSidebar": ".bm-item-list"
+  }

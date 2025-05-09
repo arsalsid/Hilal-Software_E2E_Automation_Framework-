@@ -1,7 +1,14 @@
 import loginPage from "../pages/loginPage"
-describe('template spec', () => {
+describe('Login & Dashboard Navigation', () => {
+  let testData;
 
-  beforeEach (() =>{
+  before(() => {
+    cy.fixture('testData/loginUsers').then(data => {
+      testData = data;
+    })
+  });
+
+  beforeEach (() => {
     loginPage.visit()
   });
 
