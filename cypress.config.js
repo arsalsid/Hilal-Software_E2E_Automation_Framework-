@@ -14,10 +14,10 @@ module.exports = defineConfig({
     },
     viewportWidth : 1280,
     viewportHeight : 720,
-    video : true,
+    video : false,
     videoCompression : 32,
-    screenshots : true,
-    screenshotOnRunFailure: true,
+    screenshots : false,
+    screenshotOnRunFailure: false,
     watchForFileChanges : false,
     setupNodeEvents(on, config) {
       require("cypress-mochawesome-reporter/plugin")(on);

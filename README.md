@@ -1,20 +1,17 @@
-# Created By Muhammad Arsalan for EasyGenerator End To End Automation_Framework by using Cypress with mocha framework.
+# Created By Muhammad Arsalan for Hilal Softwares End To End Automation_Framework by using JavaScript and Cypress with mocha framework.
 
 ## Description:
 
-This project contains automated tests for **Practice Page for Easy Generator** using JavaScript with Cypress and Mocha framework. The tests are designed to run both in UI mode and Headless mode, interacting with the application hosted locally on port 8080. Also, The tests follows Page Object Model Design pattern with Mochawsome reporting on headless mode. Moreover, The verison controlling we used for code deployment is GitHub.
+This project contains automated tests for **Swag Labs for Hilal Softwares** using JavaScript with Cypress with Mocha. The tests are designed to run both in UI mode and Headless mode. The tests follows Page Object Model Design pattern with Mochawsome reporting on headless mode. Moreover, The verison controlling we used for code deployment is GitHub.
 
 
 ## Dependencies:
 
-- Node.js: v20.12.2
-- Cypress: ^13.10.0
+- Node.js: v22.14.0
+- Cypress: ^14.3.3
 - cypress-file-upload: ^5.0.8
-- http-server: ^14.1.1
-- Mocha: ^10.0.0
 - Mochawesome: ^7.1.3
 - Mochawesome Report Generator: ^6.2.0
-- start-server-and-test: ^1.15.4
 
 
 ## Prerequisites for Windows and Mac OS
@@ -36,24 +33,10 @@ This project contains automated tests for **Practice Page for Easy Generator** u
 
 After running tests, Mochawesome HTML reports will be generated automatically. You can find the reports in the **mochawesome-report**  directory.
 
-### Successfull Execution Report
-![Execution Successfull Report](cypress/images/Successfull%20Execution%20Result.png)
-
-### Failure Execution Report
-![Execution Failed Report](cypress/images/Failure%20Execution%20Result.png)
-
-## Screenshots
-
-**Proof of Testing incase of any test failure.**
-
-![Test Failure Screenshot](cypress/images/Screenshot%20on%20Failure%20Execution.png)
-
 
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a GitHub issue or submit a pull request.
-
-
 
 
 # Thank you!!!
