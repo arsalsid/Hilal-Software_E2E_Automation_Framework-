@@ -25,8 +25,8 @@ This project contains automated tests for **Swag Labs for Hilal Softwares** usin
 
 ## Execution Method of Tests
 
-- For running test on Ui mode execute command **npm run test:ui** on cmd or vs code terminal
-- For running test on Headless mode execute command **npm run test:headless** on cmd or vs code terminal
+- For running test on Ui mode execute command **npm run test:ui** on cmd or vs code terminal(bash)
+- For running test on Headless mode execute command **npm run test:headless** on cmd or vs code terminal(bash)
 
 
 ##  Generating Reports on Headless Mode
