@@ -2,6 +2,7 @@
     "productsHeader": ".product_label",
     "cartLink": ".shopping_cart_link",
     "cartTitle": ".subheader",
-    "menuButton": "#react-burger-menu-btn",
-    "menuSidebar": ".bm-item-list"
+    "menuButton": ".bm-burger-button > button",
+    "menuSidebar": ".bm-item-list",
+    "logout": "#logout_sidebar_link"
   }

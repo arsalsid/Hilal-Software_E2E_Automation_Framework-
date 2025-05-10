@@ -8,7 +8,7 @@ class DashboardPage {
     }
 
     verifyProductHeader() {
-        cy.get(this.locator.productHeader).should('have.text', 'Products')
+        cy.get(this.locator.productsHeader).should('have.text', 'Products')
         console.log('Locators:', this.locator);
     }
 
@@ -25,6 +25,7 @@ class DashboardPage {
     verifyMenuNavigation () {
         cy.get(this.locator.menuButton).click()
         cy.get(this.locator.menuSidebar).should('be.visible')
+        cy.get(this.locator.logout).click()
         console.log('Locators:', this.locator);
     }
 
